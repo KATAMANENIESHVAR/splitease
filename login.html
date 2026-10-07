@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SPLITEASE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body class="auth-body">
+
+    <div class="auth-card">
+
+        <a href="index.html" class="brand">
+            SPLIT<span>EASE</span>
+        </a>
+
+        <h1>Welcome back</h1>
+
+        <p class="muted">
+            Sign in to manage your shared expenses.
+        </p>
+
+        <div id="message"></div>
+
+        <form id="loginForm">
+
+            <label>
+                Username or Email
+                <input id="identifier" required>
+            </label>
+
+            <label>
+                Password
+                <input
+                    id="password"
+                    type="password"
+                    required
+                >
+            </label>
+
+            <button class="btn btn-primary full">
+                Login
+            </button>
+
+        </form>
+<b>
+        <p class="center">
+            New to SPLITEASE?
+            <a
+                href="register.html"
+                style="color: #635bff;"
+            >
+                Create an account
+            </a>
+        </p>
+</b>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

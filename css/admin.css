@@ -1,0 +1,15 @@
+.admin-banner {
+    background: #171c29;
+    color: #fff;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+}
+
+.admin-banner span {
+    color: #9d96ff;
+}
+
+.danger-text {
+    color: #d64545;
+}

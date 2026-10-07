@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Register | SPLITEASE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body class="auth-body">
+    <div class="auth-card"><a href="index.html" class="brand">SPLIT<span>EASE</span></a>
+        <h1>Create account</h1>
+        <p class="muted">Start splitting expenses with your group.</p>
+        <div id="message"></div>
+        <form id="registerForm"><label>Full Name<input id="name" required></label><label>Username<input id="username"
+                    required></label><label>Email<input id="email" type="email" required></label><label>Password<input
+                    id="password" type="password" minlength="6" required></label><label>Confirm Password<input
+                    id="confirmPassword" type="password" minlength="6" required></label><button
+                class="btn btn-primary full">Create Account</button></form>
+        <p class="center">Already registered? <a href="login.html">Login</a></p>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+
+</html>
